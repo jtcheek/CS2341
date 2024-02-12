@@ -22,7 +22,7 @@ T increment(const T& x) { return x + 1; }
 `T` is used as a placeholder for a datatype (could be user-defined class). The code assumes that `T` has an
 implementation of `operator+` to perform the addition. Since `T` can be an object which we do not want to copy, a constant reference (`const T&`) is typically used as the parameter. 
 
-Templates can be used for functions and classes.
+Templates can be used for functions and classes. In general, nouns should be defined as classes and verbs should be defined as functions.
 
 ## Syntax
 Define the template type before the function or class with `template <typename T>`
